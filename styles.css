@@ -23,3 +23,18 @@ p {
     color: #666;
     text-align: center;
 }
+
+.primary-action-button {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+    appearance: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px 25px;
+}
